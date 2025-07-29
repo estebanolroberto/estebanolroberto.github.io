@@ -1,0 +1,25 @@
+title: "robertoesteban.dev"
+description: "Portfolio profesional de Roberto Esteban Olivares"
+baseurl: "" 
+url: "https://estebanolroberto.github.io"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name: "Roberto Esteban Olivares"
+  avatar: ""
+  bio: "Ingeniero Informático | Data Engineer & Analyst"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/estebanolroberto"
+    - label: "Email"
+      url: "mailto:robertoestebanolivares@gmail.com"
+    - label: "CV"
+      url: "/assets/CV_RobertoEstebanOlivares.pdf"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
