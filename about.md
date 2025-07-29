@@ -9,7 +9,7 @@ author_profile: true
 ## 🧑‍💼 Experiencia Profesional
 
 ### CDS – Hewlett Packard Enterprise  
-📍 *Business Applications Engineer* (Oct 2022 – Actualidad)
+📍 *Business Applications Engineer II* (Oct 2022 – Actualidad)
 
 ![HPE logo](/assets/images/cds-hpe.png){: width="120" style="float:right; margin-left:10px;" }
 
@@ -40,9 +40,33 @@ author_profile: true
 
 ## 📜 Certificaciones
 
-- ![AZ-900](/assets/images/az-900.png){: width="60px" style="vertical-align:middle;" } **Microsoft Azure Fundamentals (AZ-900)** – Obtenida en 2024  
-- ![Mongo](/assets/images/mongo.png){: width="60px" style="vertical-align:middle;" }  **MongoDB Python Developer Path** – Marzo 2024  
-- 🧪 **Curso de Python para análisis de datos** – UNIR  
-- 📈 **Curso de R y Python para Data Science** – Udemy
+### ![AZ-900](/assets/images/az-900.png){: width="50px" style="vertical-align:middle; margin-right:10px;" } Microsoft Certified: Azure Fundamentals
+**Entidad emisora:** Certiport – A Pearson VUE Business  
+**Expedición:** Octubre 2024  
+**ID de la credencial:** ITS-46394699  
+**Aptitudes:** Azure, fundamentos de cloud computing
+
+---
+
+### ![MongoDB](/assets/images/mongo.png){: width="50px" style="vertical-align:middle; margin-right:10px;" } MongoDB Python Developer Path  
+**Entidad emisora:** MongoDB  
+**Expedición:** Marzo 2024  
+**ID de la credencial:** MDBidnavzf77e  
+**Aptitudes:** Python, consultas en MongoDB, automatización con scripts  
+[Mostrar credencial](https://learn.mongodb.com/c/verified-certificate/MDBidnavzf77e)
+
+---
+
+### ![UNIR](/assets/images/unir-logo.png){: width="50px" style="vertical-align:middle; margin-right:10px;" } Curso de Python para Análisis de Datos  
+**Entidad emisora:** UNIR – Universidad Internacional de La Rioja  
+**Expedición:** Julio 2024  
+**Aptitudes:** Python para analítica, limpieza de datos, visualización básica
+
+---
+
+### 📈 Curso de R y Python para Data Science  
+**Entidad emisora:** Udemy  
+**Expedición:** Enero 2024  
+**Aptitudes:** Machine Learning básico, pandas, matplotlib, estadísticas descriptivas
 
 ---
