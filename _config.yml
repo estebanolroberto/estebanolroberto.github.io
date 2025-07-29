@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "Roberto Esteban Olivares"
-  avatar: ""
+  avatar: "/assets/images/roberto.jpg"
   bio: "Ingeniero Informático | Data Engineer & Analyst"
   links:
     - label: "GitHub"
