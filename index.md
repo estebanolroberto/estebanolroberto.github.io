@@ -5,7 +5,6 @@ excerpt: "Portfolio profesional de Roberto Esteban Olivares"
 author_profile: true
 ---
 
-¡Bienvenido a mi portfolio!
 
 Soy **Roberto Esteban Olivares**, ingeniero informático especializado en el análisis, procesamiento y visualización de datos. Me apasiona transformar datos complejos en soluciones útiles que generen valor.
 
