@@ -35,16 +35,24 @@ Este proyecto representa una excelente oportunidad para aplicar de forma integra
 
 ### 🧠 Componentes clave del proyecto
 
-- **Recopilación de datos** en tiempo real desde plataformas sociales como Reddit y X (Twitter), aplicando técnicas de scraping y streaming.
-- **Análisis de sentimiento** usando herramientas como **VADER**, **TextBlob** y **modelos de lenguaje basados en GPT**, evaluando su rendimiento comparativo.
-- **Preprocesamiento y etiquetado de emociones**, categorizando emociones y cuantificando polaridad y subjetividad para correlacionarlas con métricas de mercado.
-- **Modelado de series temporales** mediante enfoques clásicos y modernos:
-  - Modelos como **ARIMA** y **Prophet**.
-  - Técnicas avanzadas como **LSTM** (Long Short-Term Memory) y **Random Forest Regressor**.
-- **Evaluación de correlación** entre sentimiento social y volatilidad financiera, mediante métricas estadísticas y visualizaciones interactivas.
-- **Visualización de resultados** en dashboards claros y exportables, integrando bibliotecas como `matplotlib`, `plotly` y `seaborn`.
+- **Recopilación de datos** desde la API oficial de Reddit, obteniendo publicaciones y comentarios en subreddits relacionados con criptomonedas. Se aplicaron filtros temáticos y temporales para asegurar relevancia y calidad del contenido. Los datos financieros se obtuvieron de la API de **CoinGecko**, incluyendo precios históricos, volumen y volatilidad de memecoins seleccionadas.
+  
+- **Análisis de sentimiento** mediante una comparativa entre tres enfoques:  
+  - **VADER** como modelo léxico de referencia para textos cortos.  
+  - **BERT** preentrenado y ajustado para tareas de clasificación de sentimiento.  
+  - **GPT-4** a través de **OpenAI API**, aplicando prompts optimizados para obtener interpretaciones emocionales más contextuales.  
+  Se comparó la precisión, coherencia y aplicabilidad de los modelos en el contexto de publicaciones sociales.
 
----
+- **Preprocesamiento y etiquetado de emociones**, incluyendo normalización de texto, eliminación de ruido, lematización y detección de entidades clave. Se clasificaron las emociones predominantes (positiva, negativa, neutra) y se cuantificaron variables como polaridad y subjetividad, conectándolas con los movimientos del mercado.
+
+- **Modelado de series temporales** con el objetivo de predecir la volatilidad futura:
+  - Implementación de redes neuronales **LSTM**, entrenadas sobre ventanas de sentimiento y métricas de mercado.  
+  - Uso de **Random Forest Regressor** para estimar valores de volatilidad a corto plazo, basándose en características derivadas del análisis emocional.
+
+- **Evaluación de correlación** mediante análisis estadístico clásico (Pearson, Spearman) y visualizaciones que muestran cómo las variaciones en el sentimiento preceden a cambios de comportamiento en las memecoins. Se analizaron patrones y ventanas temporales óptimas para anticipación.
+
+- **Visualización de resultados** a través de dashboards dinámicos en **Power BI**, mostrando predicciones, fluctuaciones emocionales, análisis comparativo de modelos y gráficos temporales interactivos. Se complementó con visualizaciones técnicas detalladas usando `matplotlib`, `seaborn` y `plotly` para documentación y análisis exploratorio.
+
 
 ### 🎯 Objetivo del proyecto
 
