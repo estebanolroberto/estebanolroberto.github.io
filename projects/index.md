@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: false
 ---
 
-Aquí encontrarás algunos de los proyectos en los que he trabajado o que estoy desarrollando.PRUEBA
+Aquí encontrarás algunos de los proyectos en los que he trabajado o que estoy desarrollando.
 
 <div class="grid__wrapper">
 
