@@ -9,16 +9,23 @@ plugins:
 
 author:
   name: "Roberto Esteban Olivares"
-  avatar: "/assets/images/roberto.jpeg"
-  bio: "Ingeniero Informático | Data Engineer & Analyst"
+  avatar: "/assets/images/roberto.jpg"  # Asegúrate de que la imagen esté ahí
+  bio: "📊 Data Engineer & Analyst. Apasionado por los datos, la automatización y la eficiencia tecnológica."
+  location: "🇪🇸 España"
   links:
-    - label: "GitHub"
+    - label: "💼 LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/roberto-esteban-olivares/"
+    - label: "🐱 GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/estebanolroberto"
-    - label: "Email"
+    - label: "📧 Email"
+      icon: "fas fa-envelope"
       url: "mailto:robertoestebanolivares@gmail.com"
-    - label: "CV"
+    - label: "📄 CV"
+      icon: "fas fa-file-pdf"
       url: "/assets/CV_RobertoEstebanOlivares.pdf"
-
+    
 collections:
   projects:
     output: true
