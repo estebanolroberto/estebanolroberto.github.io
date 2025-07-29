@@ -6,4 +6,4 @@ main:
   - title: "Proyectos"
     url: /projects/
   - title: "CV"
-    url: /assets/CV_RobertoEstebanOlivares.pdf"
+    url: "/assets/CV_RobertoEstebanOlivares.pdf"
