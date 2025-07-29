@@ -5,4 +5,10 @@ excerpt: "Portfolio profesional de Roberto Esteban Olivares"
 author_profile: true
 ---
 
-¡Hola! Soy **Roberto Esteban Olivares**, ingeniero informático con especial interés en el análisis y procesamiento de datos. Este es mi portfolio web, donde podrás encontrar información sobre mi perfil, proyectos y experiencia.
+¡Bienvenido a mi portfolio!
+
+Soy **Roberto Esteban Olivares**, ingeniero informático especializado en el análisis, procesamiento y visualización de datos. Me apasiona transformar datos complejos en soluciones útiles que generen valor.
+
+En este espacio encontrarás una muestra de mi trayectoria, proyectos y conocimientos en tecnologías como Python, Power BI, SQL, MongoDB y automatización con Jenkins.
+
+Mi objetivo es seguir creciendo profesionalmente en el ámbito del **Data Engineering** y la **Analítica de Datos**, aportando eficiencia y claridad a través de la tecnología.
