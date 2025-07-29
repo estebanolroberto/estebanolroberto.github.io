@@ -4,6 +4,7 @@ excerpt: "TFG que propone una infraestructura IoT modular, conectada y autoconfi
 date: 2023-07-15
 layout: single
 author_profile: false
+collection: projects
 read_time: true
 toc: false
 categories:
