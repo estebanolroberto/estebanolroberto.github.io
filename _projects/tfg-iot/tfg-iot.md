@@ -5,6 +5,7 @@ date: 2023-07-15
 layout: single
 author_profile: false
 read_time: true
+image: /assets/images/uclm-logo.jpg
 toc: false
 categories:
   - proyectos
