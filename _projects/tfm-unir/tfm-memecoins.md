@@ -6,6 +6,7 @@ layout: single
 collection: projects
 author_profile: false
 read_time: true
+image: /assets/images/unir-logo.png
 toc: false
 categories:
   - proyectos
