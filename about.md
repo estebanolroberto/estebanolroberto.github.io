@@ -33,9 +33,24 @@ author_profile: true
 
 ## 🎓 Formación Académica
 
-- 🎓 *Máster en Visual Analytics & Big Data* – UNIR *(2024 - Actualidad)*
-- 🎓 *Grado en Ingeniería Informática – Sistemas de Información* – UCLM *(2019 - 2023)*
-- 🎓 *Técnico Superior en Administración de Sistemas Informáticos y Redes* – IES Ribera del Tajo *(2017 - 2019)*
+### ![UNIR](/assets/images/unir-logo.png){: width="50px" style="vertical-align:middle; margin-right:10px;" } Máster en Visual Analytics & Big Data  
+**Centro:** UNIR – Universidad Internacional de La Rioja  
+**Duración:** Noviembre 2024 – Actualidad  
+**Áreas destacadas:** Big Data, analítica visual, dashboards interactivos
+
+---
+
+### ![UCLM](/assets/images/uclm-logo.jpg){: width="50px" style="vertical-align:middle; margin-right:10px;" } Grado en Ingeniería Informática (Mención en Sistemas de Información)  
+**Centro:** UCLM – Universidad de Castilla-La Mancha  
+**Duración:** 2019 – 2023  
+**Áreas destacadas:** Bases de datos, desarrollo de software, análisis de sistemas
+
+---
+
+### ![Ribera](/assets/images/ribera-logo.png){: width="50px" style="vertical-align:middle; margin-right:10px;" } Técnico Superior en Administración de Sistemas Informáticos y Redes  
+**Centro:** IES Ribera del Tajo  
+**Duración:** 2017 – 2019  
+**Áreas destacadas:** Redes, sistemas operativos, mantenimiento informático
 
 ---
 
