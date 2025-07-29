@@ -2,7 +2,7 @@ title: "robertoesteban.dev"
 description: "Portfolio profesional de Roberto Esteban Olivares"
 baseurl: "" 
 url: "https://estebanolroberto.github.io"
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-include-cache
