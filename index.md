@@ -15,6 +15,7 @@ Mi objetivo es seguir creciendo profesionalmente en el ámbito del **Data Engine
 
 ## 🚀 Últimos proyectos
 
-{% for project in site.projects limit:3 %}
+{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+{% for project in sorted_projects limit:3 %}
 - [{{ project.title }}]({{ project.url | relative_url }}): {{ project.excerpt }}
 {% endfor %}
