@@ -26,7 +26,6 @@ Soy un apasionado de la informática con experiencia en desarrollo de APIs, auto
 - Migración completa de sistemas locales a Microsoft 365.
 - Automatización de flujos con PowerAutomate.
 - Soporte y formación a clientes en entornos empresariales.
-
 ---
 
 ## 🎓 Formación Académica
