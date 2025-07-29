@@ -3,11 +3,6 @@ layout: single
 title: "Sobre mí"
 permalink: /about/
 author_profile: true
----
-
-### 👋 ¡Hola!
-
-Soy un apasionado de la informática con experiencia en desarrollo de APIs, automatización de procesos y análisis de datos. Me encanta aprender nuevas tecnologías y resolver problemas reales con datos. Actualmente me especializo en **Data Engineering y Análisis de Datos**.
 
 ---
 
@@ -21,15 +16,17 @@ Soy un apasionado de la informática con experiencia en desarrollo de APIs, auto
 - Desarrollo y documentación de APIs usando Swagger sobre sistemas de telecomunicaciones.
 - Automatización de despliegues con Jenkins y scripting Bash.
 - Integración de adaptadores NETCONF/YANG para operadores como Orange.
-- Soporte en entornos multinacionales (VIVO Brasil).
+- Soporte y desarrollo en entornos multinacionales para proyectos 5G (VIVO Brasil).
 
 ---
 
 ### Tecon Soluciones Informáticas  
 📍 *Técnico SW y HW* (Jun 2022 – Sep 2022)
 
+![TECON_LOGO](/assets/images/tecon.png){: width="120" style="float:right; margin-left:10px;" }
+
 - Migración completa de sistemas locales a Microsoft 365.
-- Automatización de flujos con PowerAutomate.
+- Formación y Automatización de flujos con PowerAutomate.
 - Soporte y formación a clientes en entornos empresariales.
 ---
 
@@ -44,7 +41,7 @@ Soy un apasionado de la informática con experiencia en desarrollo de APIs, auto
 ## 📜 Certificaciones
 
 - ![AZ-900](/assets/images/az-900.png){: width="60px" style="vertical-align:middle;" } **Microsoft Azure Fundamentals (AZ-900)** – Obtenida en 2024  
-- 🐍 **MongoDB Python Developer Path** – Marzo 2024  
+- ![Mongo](/assets/images/mongo.png){: width="60px" style="vertical-align:middle;" }  **MongoDB Python Developer Path** – Marzo 2024  
 - 🧪 **Curso de Python para análisis de datos** – UNIR  
 - 📈 **Curso de R y Python para Data Science** – Udemy
 
