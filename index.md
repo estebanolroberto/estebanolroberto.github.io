@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 
-Soy **Roberto Esteban Olivares**, ingeniero informático especializado en el análisis, procesamiento y visualización de datos. Me apasiona transformar datos complejos en soluciones útiles que generen valor.
+Soy **Roberto Esteban Olivares**, ingeniero informático con especialización en análisis, procesamiento y visualización de datos. Me motiva convertir información compleja en soluciones prácticas que aporten valor real a las organizaciones.
 
-En este espacio encontrarás una muestra de mi trayectoria, proyectos y conocimientos en tecnologías como Python, Power BI, SQL, MongoDB y automatización con Jenkins.
+Mi objetivo es seguir desarrollándome profesionalmente en el ámbito del **Data Engineering** y la **Analítica de Datos**, aplicando tecnología para mejorar la eficiencia y la toma de decisiones.
 
-Mi objetivo es seguir creciendo profesionalmente en el ámbito del **Data Engineering** y la **Analítica de Datos**, aportando eficiencia y claridad a través de la tecnología.
+Me considero una persona adaptable, proactiva y con una fuerte orientación al aprendizaje continuo. Disfruto asumir nuevos retos, incorporar herramientas y metodologías actualizadas, y trabajar en entornos colaborativos donde la comunicación y el trabajo en equipo sean pilares clave para alcanzar resultados sobresalientes.
 
 ## 🛠️ Herramientas y tecnologías que domino
 
