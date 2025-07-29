@@ -28,6 +28,7 @@ author_profile: true
 - Migración completa de sistemas locales a Microsoft 365.
 - Formación y Automatización de flujos con PowerAutomate.
 - Soporte y formación a clientes en entornos empresariales.
+  
 ---
 
 ## 🎓 Formación Académica
