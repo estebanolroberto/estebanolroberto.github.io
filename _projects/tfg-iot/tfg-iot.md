@@ -40,4 +40,3 @@ Además, se desarrolló una **API REST** que permite exponer los datos recogidos
 
 ---
 
-📄 [Ver memoria del proyecto](https://www.linkedin.com/in/roberto-esteban-olivares/overlay/1726730442113/single-media-viewer/?type=DOCUMENT&profileId=ACoAACXNXzgBLTxn2HAapKbG8zeGuXkP177G5AM)
