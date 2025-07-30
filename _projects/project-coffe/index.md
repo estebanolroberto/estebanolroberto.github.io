@@ -6,7 +6,7 @@ layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/coffee-logo.png
+image: /assets/images/coffe-logo.png
 toc: false
 categories:
   - proyectos
@@ -19,7 +19,7 @@ tags:
   - python
 ---
 
-![Logo Café](/assets/images/coffee-logo.png){: width="100px" style="float:right; margin-left:10px;" }
+![Logo Café](/assets/images/coffe-logo.png){: width="100px" style="float:right; margin-left:10px;" }
 
 ### 📊 Proyecto de análisis de datos y visualización interactiva  
 📅 Finalizado – Julio 2025  
@@ -56,8 +56,8 @@ Este proyecto explora el comportamiento de clientes en una **cafetería de Ciuda
 En esta misma carpeta del repositorio GitHub puedes encontrar:
 
 - [`coffee_transactions_final.csv`](./coffee_transactions_final.csv): dataset final procesado y enriquecido con todas las variables usadas para el modelado y visualización.
-- [`coffee_dashboard.pbix`](./coffee_dashboard.pbix): fichero de Power BI con los 5 dashboards interactivos construidos para explorar ventas, productos, clientes, tiempo y clusters.
-- [`cafe_analysis.ipynb`](./cafe_analysis.ipynb): notebook de Jupyter completo con todos los pasos del análisis, limpieza, modelado y exportación de datos.
+- [`DashboardCoffeShop.pbix`](./DashboardCoffeShop.pbix): fichero de Power BI con los 5 dashboards interactivos construidos para explorar ventas, productos, clientes, tiempo y clusters.
+- [`ProjectCoffe.ipynb`](./ProjectCoffe.ipynb): notebook de Jupyter completo con todos los pasos del análisis, limpieza, modelado y exportación de datos.
 
 ---
 
