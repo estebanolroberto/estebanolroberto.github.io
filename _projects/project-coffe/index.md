@@ -55,9 +55,9 @@ Este proyecto explora el comportamiento de clientes en una **cafetería de Ciuda
 
 En esta misma carpeta del repositorio GitHub puedes encontrar:
 
-- [`coffee_transactions_final.csv`](./coffee_transactions_final.csv): dataset final procesado y enriquecido con todas las variables usadas para el modelado y visualización.
-- [`DashboardCoffeShop.pbix`](./DashboardCoffeShop.pbix): fichero de Power BI con los 5 dashboards interactivos construidos para explorar ventas, productos, clientes, tiempo y clusters.
-- [`ProjectCoffe.ipynb`](./ProjectCoffe.ipynb): notebook de Jupyter completo con todos los pasos del análisis, limpieza, modelado y exportación de datos.
+- [`coffee_transactions_final.csv`](/_projects/project-coffe/coffee_transactions_final.csv): dataset final procesado y enriquecido con todas las variables usadas para el modelado y visualización.
+- [`DashboardCoffeShop.pbix`](/_projects/project-coffe/DashboardCoffeShop.pbix): fichero de Power BI con los 5 dashboards interactivos construidos para explorar ventas, productos, clientes, tiempo y clusters.
+- [`ProjectCoffe.ipynb`](/_projects/project-coffe/ProjectCoffe.ipynb): notebook de Jupyter completo con todos los pasos del análisis, limpieza, modelado y exportación de datos.
 
 ---
 
