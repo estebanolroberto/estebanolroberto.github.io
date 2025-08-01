@@ -14,12 +14,37 @@ Me considero una persona adaptable, proactiva y con una fuerte orientación al a
 
 ## 🛠️ Herramientas y tecnologías que domino
 
-- **Lenguajes:** Python, SQL, Bash, Java
-- **Análisis de datos:** Power BI, Pandas, Seaborn, Scikit-learn, Tableau
-- **Bases de datos:** MySQL, MongoDB, SQLite
-- **Automatización y DevOps:** Jenkins, Git, Docker
-- **IA / NLP:** VADER, BERT, GPT-4, OpenAI API
-- **Otros:** Jupyter, FastAPI, VSCode
+- **Lenguajes de programación:**  
+  Python, SQL, Bash, Java, Scala
+
+- **Análisis de datos y visualización:**  
+  Pandas, Seaborn, Matplotlib, Plotly, Scikit-learn, Power BI, Tableau, Scimago Graphica
+
+- **Big Data y procesamiento distribuido:**  
+  Hadoop, HDFS, Apache Spark
+
+- **Machine Learning & NLP:**  
+  VADER, BERT, GPT-4, OpenAI API, Transformers (Hugging Face)
+
+- **Bases de datos:**  
+  MySQL, MongoDB, PostgreSQL
+
+- **Desarrollo web y APIs:**  
+  FastAPI, Swagger (OpenAPI), RESTful APIs
+
+- **Entornos de desarrollo y notebooks:**  
+  Jupyter Notebook, Google Colab, Anaconda, VSCode
+
+- **DevOps y automatización:**  
+  Docker, Jenkins, Git, GitHub, GitHub Actions
+
+- **Gestión de proyectos:**  
+  Jira, Microsoft Projects
+
+- **Documentación y publicación:**  
+  Markdown, RMarkdown
+
+
 
 ## 🚀 Últimos proyectos
 
