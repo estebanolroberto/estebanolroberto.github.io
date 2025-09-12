@@ -58,7 +58,7 @@ Además, soporta **feedback humano**: los operadores pueden corregir la categor�
 
 ## 🏗️ Arquitectura
 
-![Arquitectura del sistema](/assets/images/architecture-ai-support.PNG){: width="100%" }
+![Arquitectura del sistema](/assets/images/architecture-ai-support.png){: width="100%" }
 ---
 
 ## ⚙️ Stack Tecnológico
@@ -89,4 +89,5 @@ Además, soporta **feedback humano**: los operadores pueden corregir la categor�
 - Gracias al retraining, el modelo **mejora con el tiempo**.  
 
 ---
+
 
