@@ -6,7 +6,7 @@ layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/cover-ai-support.png
+image: /assets/images/cover-ai.png
 toc: false
 categories:
   - proyectos
@@ -21,7 +21,7 @@ tags:
   - metabase
 ---
 
-![Portada del proyecto](/assets/images/cover-ai-support.png){: width="100%" }
+![Portada del proyecto](/assets/images/cover-ai.png){: width="100%" }
 
 ## 📌 Descripción del proyecto
 
@@ -89,3 +89,4 @@ Además, soporta **feedback humano**: los operadores pueden corregir la categor�
 - Gracias al retraining, el modelo **mejora con el tiempo**.  
 
 ---
+
