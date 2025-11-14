@@ -4,6 +4,7 @@ excerpt: "Modelo de machine learning entrenado con datos reales de clasificació
 date: 2025-11-15
 layout: single
 collection: projects
+permalink: /projects/f1-qualy-2025/
 author_profile: false
 read_time: true
 image: /assets/images/f1.jpg
@@ -139,3 +140,4 @@ Esta fase forma el núcleo del sistema de predicción completo.
 
 📌 **Estado actual:**  
 **Fase 1 finalizada y publicada en GitHub Pages.**
+
