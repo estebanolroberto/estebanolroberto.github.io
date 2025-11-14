@@ -1,100 +1,128 @@
 ---
-title: "Análisis de datos con Python: Pandas, NumPy y Matplotlib"
-excerpt: "Curso intensivo para dominar las bibliotecas clave del ecosistema Python orientadas al análisis y visualización de datos."
-date: 2025-10-29
+title: "F1 Qualifying Prediction Model – Las Vegas GP 2025"
+excerpt: "Machine learning model trained on real F1 qualifying data (2024–2025). Includes feature engineering, exploratory analysis, XGBoost tuning, and predictive insights for the Las Vegas GP."
+date: 2025-11-15
 layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/pandas-logo.png
+image: /assets/images/f1.jpg
 toc: false
 categories:
-  - formación
+  - proyectos
 tags:
-  - pandas
-  - numpy
-  - matplotlib
-  - análisis de datos
+  - fórmula 1
+  - machine learning
+  - predictive modeling
+  - sports analytics
+  - xgboost
   - python
 ---
 
-![Logo Pandas](/assets/images/pandas-logo.png){: width="90px" style="float:right; margin-left:10px;" }
+![F1 Logo](/assets/images/f1.jpg){: width="120px" style="float:right; margin-left:10px;" }
 
-### 🎓 Curso completado – Udemy  
-📅 Finalizado: Junio de 2023  
-⏱️ Duración total: 1.5 horas  
-⭐ Calificación del curso: 4.5 / 5  
-👨‍🏫 Instructor: [Federico Garay](https://www.udemy.com/user/federicogaray/)
-📂 Repositorio del proyecto: [🔗 estebanolroberto/Curso-Pandas-Python](https://github.com/estebanolroberto/Curso-Pandas-Python)
-
+### 🏎️ F1 Qualifying Prediction – Las Vegas GP 2025  
+📅 Phase 1 Completed – November 2025  
+💻 Python + FastF1 + XGBoost + Seaborn/Matplotlib  
 
 ---
 
-### 📘 Descripción
-
-Este curso proporcionó una introducción completa y práctica al **análisis de datos con Python**, utilizando las bibliotecas **Pandas**, **NumPy** y **Matplotlib**.  
-A través de ejemplos guiados y ejercicios reales, aprendí a manipular, transformar, limpiar y visualizar datos de forma eficiente y profesional.
-
-La formación cubre el flujo completo de trabajo analítico, desde la lectura de datos y la exploración inicial hasta la generación de visualizaciones y la obtención de conclusiones a partir de los datos.
+This project builds a machine learning model capable of predicting **Formula 1 qualifying positions** for a given Grand Prix.  
+The goal of this first phase is to produce a realistic prediction for the **2025 Las Vegas Grand Prix**, using only **historical qualifying data** from 2024 and 2025.
 
 ---
 
-### 🧠 Habilidades adquiridas
+## 🧠 Key Components of the Project
 
-- Lectura y escritura de archivos CSV, Excel y otros formatos con `pandas`.
-- Limpieza, filtrado, indexación y agrupamiento de datos (`groupby`).
-- Cálculo de estadísticas descriptivas y análisis exploratorio (EDA).
-- Creación de gráficos con `matplotlib` y personalización de ejes, etiquetas y estilos.
-- Uso de `numpy` para operaciones numéricas vectorizadas y manejo de arrays.
-- Trabajo eficiente con **DataFrames** y **Series**.
-- Representación visual de tendencias, distribuciones y relaciones entre variables.
+### **1. Data Acquisition & Consolidation**
+Real qualifying data was obtained via **FastF1**, including:
 
----
+- all qualifying sessions from the **2024** season  
+- all available qualifying sessions from **2025** up to São Paulo (Round 21)
 
-### 🧩 Tecnologías utilizadas
-
-| Herramienta | Descripción |
-|--------------|-------------|
-| **Python 3** | Lenguaje de programación base |
-| **Pandas** | Manipulación y análisis de datos estructurados |
-| **NumPy** | Cálculo científico y manejo de matrices |
-| **Matplotlib** | Visualización y gráficos |
-| **Jupyter Notebook** | Entorno interactivo para desarrollo y documentación |
+Each session includes: driver abbreviation, team name, Q1/Q2/Q3 times, event name, round, and year.
 
 ---
 
-### 💻 Ejemplo práctico
+### **2. Feature Engineering**
+Key form metrics generated for each driver:
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
+- `avg_quali_before` → season qualifying average  
+- `last3_avg_before` → trend in recent performance  
+- `trend_before` → short-term improvement/decline  
+- `team_avg_before` → team-level performance  
+- `delta_vs_team` → driver deviation from car capability  
 
-# Cargar datos
-tabla = pd.read_csv('VentasPorProveedor.csv', sep=';')
-tabla['Ganancia'] = tabla['Ganancia'].str.replace(',', '.').astype(float)
+---
 
-# Filtrar categoría
-alimentos = tabla[tabla['Categoría'] == 'Comestibles']
+### **3. Model Training**
+Two major versions were evaluated:
 
-# Visualización
-alimentos['Artículo'].value_counts().plot(kind='bar', figsize=(10,5))
-plt.title('Artículos comestibles más vendidos')
-plt.xlabel('Artículo')
-plt.ylabel('Cantidad')
-plt.show()
-```
+#### **Model v1 (5 features)**  
+✔ Best-performing model  
+📉 **Final tuned MAE: 3.37 positions**
 
-## 👨‍🏫 Instructor
+#### **Model v2 (7 features)**  
+Adds circuit type + season progress  
+❌ Did not improve accuracy → discarded  
 
-Federico Garay
-Instructor Best-Seller en Udemy, con más de 400.000 estudiantes y más de 50 cursos publicados.
-Apasionado por enseñar, aprender y compartir conocimientos sobre programación, análisis de datos y productividad digital.
+---
 
-## 🏁 Resultados obtenidos
-✔ Manejo fluido de la biblioteca Pandas.
+## 📈 Final Prediction – Las Vegas GP 2025
 
-✔ Capacidad para realizar análisis de datos y visualizaciones básicas.
+Using the best-tuned version of Model v1, the system generates:
 
-✔ Comprensión sólida del flujo de trabajo analítico con Python.
+- predicted qualifying order  
+- performance indicators for each driver  
+- comparison vs Las Vegas 2024  
+- fully styled visualizations using official 2025 team colors  
 
-✔ Mejora de la eficiencia en la manipulación y exploración de datasets.
+Below is the **final qualifying prediction chart for Las Vegas 2025**:
+
+![Las Vegas 2025 Prediction](/assets/images/lasvegas.png){: width="100%" style="margin-top:20px; border-radius:8px;" }
+
+*Generated automatically from the model using XGBoost and performance-based features.*
+
+---
+
+## 📊 Additional Visualizations Included in the Notebook
+- Average qualifying position (2024–2025) per driver  
+- Team performance comparison  
+- Driver form scatterplot (historical vs last-3)  
+- Predicted grid visualization with official team palette  
+
+---
+
+## 📁 Included Project Files
+
+- **Notebook:**  
+  `F1_Qualy_Predictions_Las_Vegas_2025.ipynb`
+- **Figures:**  
+  - `/assets/images/lasvegas.png` (prediction chart)  
+  - Additional analytic plots exported from the notebook  
+- **Dataset:** consolidated qualifying dataset for 2024–2025  
+
+---
+
+## 🎯 Objective
+
+Create a robust machine learning framework to predict Formula 1 qualifying performance based on **historical form**, **trend**, and **team strength**.
+
+The project lays the groundwork for significantly more powerful models in future phases.
+
+---
+
+## 🚀 Next Steps (Phase 2)
+
+- Integration of FP1–FP3 performance data  
+- Sector-time analysis & ideal lap calculations  
+- Ensemble models (XGB + GradientBoosting + Random Forest)  
+- Predictive modules for:
+  - Safety Car probability  
+  - Red flag likelihood  
+- Deployment as a Streamlit app or lightweight prediction API  
+
+---
+
+📌 **Current Status:**  
+**Phase 1 completed and published on GitHub Pages.**
