@@ -6,7 +6,7 @@ layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/f1.png
+image: /assets/images/f1.jpg
 toc: false
 categories:
   - formación
@@ -99,3 +99,4 @@ Apasionado por enseñar, aprender y compartir conocimientos sobre programación,
 ✔ Comprensión sólida del flujo de trabajo analítico con Python.
 
 ✔ Mejora de la eficiencia en la manipulación y exploración de datasets.
+
