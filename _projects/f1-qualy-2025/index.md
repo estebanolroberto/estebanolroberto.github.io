@@ -1,29 +1,31 @@
 ---
-title: "F1 Qualifying Prediction Model – Las Vegas GP 2025"
-excerpt: "Machine learning model trained on real F1 qualifying data (2024–2025). Includes feature engineering, exploratory analysis, XGBoost tuning, and predictive insights for the Las Vegas GP."
-date: 2025-11-15
+title: "Análisis de datos con Python: Pandas, NumPy y Matplotlib"
+excerpt: "Curso intensivo para dominar las bibliotecas clave del ecosistema Python orientadas al análisis y visualización de datos."
+date: 2025-10-29
 layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/f1.jpg
+image: /assets/images/pandas-logo.png
 toc: false
 categories:
-  - projects
+  - formación
 tags:
-  - formula 1
-  - machine learning
-  - predictive modeling
-  - sports analytics
-  - xgboost
+  - pandas
+  - numpy
+  - matplotlib
+  - análisis de datos
   - python
 ---
 
-![F1 Logo](/assets/images/f1.jpg){: width="120px" style="float:right; margin-left:10px;" }
+![Logo Pandas](/assets/images/pandas-logo.png){: width="90px" style="float:right; margin-left:10px;" }
 
-### 🏎️ F1 Qualifying Prediction – Las Vegas GP 2025  
-📅 Phase 1 Completed – November 2025  
-💻 Python + FastF1 + XGBoost + Seaborn/Matplotlib  
+### 🎓 Curso completado – Udemy  
+📅 Finalizado: Junio de 2023  
+⏱️ Duración total: 1.5 horas  
+⭐ Calificación del curso: 4.5 / 5  
+👨‍🏫 Instructor: [Federico Garay](https://www.udemy.com/user/federicogaray/)
+📂 Repositorio del proyecto: [🔗 estebanolroberto/Curso-Pandas-Python](https://github.com/estebanolroberto/Curso-Pandas-Python)
 
 
 ---
