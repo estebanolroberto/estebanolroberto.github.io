@@ -18,6 +18,7 @@ tags:
   - xgboost
   - python
 ---
+permalink: /projects/f1-qualy-2025/
 
 ![F1 Logo](/assets/images/f1.jpg){: width="120px" style="float:right; margin-left:10px;" }
 
