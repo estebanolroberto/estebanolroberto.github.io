@@ -1,24 +1,25 @@
 ---
-title: "Análisis de datos con Python: Pandas, NumPy y Matplotlib"
-excerpt: "Curso intensivo para dominar las bibliotecas clave del ecosistema Python orientadas al análisis y visualización de datos."
-date: 2025-10-29
+title: "F1 Qualifying Prediction Model – Las Vegas GP 2025"
+excerpt: "Machine learning model trained on real F1 qualifying data (2024–2025)."
+date: 2025-11-15
 layout: single
 collection: projects
 author_profile: false
 read_time: true
-image: /assets/images/pandas-logo.png
+image: /assets/images/f1.png
 toc: false
 categories:
   - formación
 tags:
-  - pandas
-  - numpy
-  - matplotlib
-  - análisis de datos
+  - formula 1
+  - machine learning
+  - predictive modeling
+  - sports analytics
+  - xgboost
   - python
 ---
 
-![Logo Pandas](/assets/images/pandas-logo.png){: width="90px" style="float:right; margin-left:10px;" }
+![F1 Logo](/assets/images/f1.jpg){: width="120px" style="float:right; margin-left:10px;" }
 
 ### 🎓 Curso completado – Udemy  
 📅 Finalizado: Junio de 2023  
